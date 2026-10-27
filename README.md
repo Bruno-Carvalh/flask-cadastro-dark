@@ -2,6 +2,8 @@
 
 Projeto minimalista dark para demonstração de backend com Python.
 
+🔗 **Demo online:** https://flask-cadastro-dark-1.onrender.com
+
 ### Stack
 - Python / Flask
 - SQLite3
@@ -16,4 +18,6 @@ Projeto minimalista dark para demonstração de backend com Python.
 ### Como rodar
 ```bash
 pip install -r requirements.txt
-python app.py# flask-cadastro-dark
+python app.py
+# ou em produção:
+# gunicorn app:app
